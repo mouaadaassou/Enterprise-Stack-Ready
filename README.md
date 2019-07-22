@@ -5,11 +5,18 @@ This project contains a setup for a CI/CD stack, along with a Log Management Sta
 * Jenkins
 * SonarQube
 * Postgresql
-* Graylog                                                                                                                                                                    ##############
-* Elasticsearch                                                                                                                                                              # Postgresql #
-* MongoDB                                                                                                                                                                    ##############
+* Graylog
+* Elasticsearch
+* MongoDB
+
+
+### Architecture
+
+                                                                                                                                                                             ##############
+                                                                                                                                                                             # Postgresql #
+                                                                                                                                                                             ##############
                                                                                                                                                                                    |
-### Architecture:                                                                                                                                                                  |
+                                                                                                                                                                                   |
                                                                           push           ##########         Webhook                                                                |
                              ###################                          -------------> # Github # <----------------                                                              |
        ------------------->  #  ElasticSearch  #                          |              ##########                 |                                                              |
