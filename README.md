@@ -11,7 +11,7 @@ This project contains a setup for a CI/CD stack, along with a Log Management Sta
 
 
 ### Architecture
-
+```
                                                                                                                                                                              ##############
                                                                                                                                                                              # Postgresql #
                                                                                                                                                                              ##############
@@ -30,6 +30,7 @@ This project contains a setup for a CI/CD stack, along with a Log Management Sta
        -------------------> # MongoDB #                                                                                                                  # SonarQube # -------------
                             ###########                                                                                                                  #############
 
+```
 ### How to use this stack:
 This project contains a Docker Deployment along with Kubernetes Deployment to run Jenkins CI-CD Server,
 and Sonarqube, PostgreSQL on my machine.
